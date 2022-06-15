@@ -1,0 +1,92 @@
+:root {
+   font-size: 62.5%; /* = 10px */
+}
+
+body {
+   margin: 0;
+   padding: 0;
+
+   box-sizing: border-box;
+
+   font-family: 'Nunito', sans-serif;
+   font-weight: 400;
+   font-size: 1.6rem;
+}
+
+body #container {
+   padding: 1rem;
+   margin: 4rem auto;
+   width: 50rem;
+
+   border: 0.1rem gray;
+}
+
+h1 {
+   color: #FF9B42;
+   font-family: 'Noto Serif Display', serif;
+   font-size: 3.5rem;
+   text-align: center;
+}
+
+p#comoFunciona {
+   background-color: rgba(0, 0, 0, 0.199);
+   padding: 1rem;
+   margin: 4rem 0;
+
+   line-height: 2.5rem;
+}
+
+div#formulario {
+   background-color: rgba(0, 0, 0, 0.199);
+   height: 6rem;
+
+   display: flex;
+   align-items: center;
+}
+
+div label {
+   padding: 1rem;
+}
+
+div input.campoPalpite {
+   width: 6rem;
+   height: 2rem;
+   padding: 0.5rem;
+   margin-right: 4rem;
+
+   border: none;
+   border-radius: 0.2rem;
+}
+
+div input.envioPalpite {
+   background-color: white;
+   height: 3.5rem;
+   width: 10rem;
+   padding: 0.5rem;
+
+   border: none;
+   border-radius: 0.2rem;
+
+   cursor: pointer;
+}
+div input.envioPalpite:hover {
+   background: linear-gradient(to top, #FF9B42 -10%, white 30%);
+}
+
+div.resultadoPgfos p {
+   padding: 1rem;
+}
+
+div .ultimoResultado {
+   font-weight: 800;
+   padding: 1rem;
+}
+
+button.botaoR {
+   background-color: #FF9B42;
+   height: 3.5rem;
+   border: none;
+   border-radius: 0.2rem;
+
+   cursor: pointer;
+}
